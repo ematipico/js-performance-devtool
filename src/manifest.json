@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "JavaScript performance extension",
+  "description": "JavaScript performance extension",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_popup": "http://localhost:3000"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

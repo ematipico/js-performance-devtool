@@ -1,0 +1,53 @@
+{
+  "name": "js-performance-devtool",
+  "version": "1.0.0",
+  "description": "Chrome extension for JavaScript performance",
+  "main": "index.js",
+  "dependencies": {
+    "js-perf": "^1.0.0",
+    "milligram": "^1.3.0",
+    "vue": "^2.4.2",
+    "vue-template-compiler": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "standard": "^10.0.3",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "vue-hot-reload-loader": "^0.1.3",
+    "vue-loader": "^13.0.4",
+    "webpack": "^3.5.4",
+    "webpack-cli": "^1.3.3",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-dev-server": "^2.6.1",
+    "webpack-hot-middleware": "^2.18.2"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "cross-env NODE_ENV=development browser-sync start -c scripts/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ematipico/js-performance-devtool.git"
+  },
+  "keywords": [
+    "javascript",
+    "performance",
+    "chrome",
+    "extension",
+    "devtool"
+  ],
+  "author": "Emanuele Stoppa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ematipico/js-performance-devtool/issues"
+  },
+  "homepage": "https://github.com/ematipico/js-performance-devtool#readme"
+}
